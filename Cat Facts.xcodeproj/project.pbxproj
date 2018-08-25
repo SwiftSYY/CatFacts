@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A115FE5B2130F0FD00DAA4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115FE5A2130F0FD00DAA4E6 /* AppDelegate.swift */; };
-		A115FE5D2130F0FD00DAA4E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115FE5C2130F0FD00DAA4E6 /* ViewController.swift */; };
+		A115FE5D2130F0FD00DAA4E6 /* CatFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115FE5C2130F0FD00DAA4E6 /* CatFactViewController.swift */; };
 		A115FE602130F0FD00DAA4E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A115FE5E2130F0FD00DAA4E6 /* Main.storyboard */; };
 		A115FE622130F10100DAA4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A115FE612130F10100DAA4E6 /* Assets.xcassets */; };
 		A115FE652130F10100DAA4E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A115FE632130F10100DAA4E6 /* LaunchScreen.storyboard */; };
 		A115FE702130F10200DAA4E6 /* Cat_FactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115FE6F2130F10200DAA4E6 /* Cat_FactsTests.swift */; };
 		A115FE7B2130F10200DAA4E6 /* Cat_FactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115FE7A2130F10200DAA4E6 /* Cat_FactsUITests.swift */; };
+		A115FE892130F48000DAA4E6 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115FE882130F48000DAA4E6 /* CatFact.swift */; };
+		A115FE8B213103E300DAA4E6 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115FE8A213103E300DAA4E6 /* UIImage+Gif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		A115FE572130F0FD00DAA4E6 /* Cat Facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Facts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115FE5A2130F0FD00DAA4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A115FE5C2130F0FD00DAA4E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A115FE5C2130F0FD00DAA4E6 /* CatFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactViewController.swift; sourceTree = "<group>"; };
 		A115FE5F2130F0FD00DAA4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A115FE612130F10100DAA4E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A115FE642130F10100DAA4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		A115FE762130F10200DAA4E6 /* Cat FactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat FactsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115FE7A2130F10200DAA4E6 /* Cat_FactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_FactsUITests.swift; sourceTree = "<group>"; };
 		A115FE7C2130F10200DAA4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A115FE882130F48000DAA4E6 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		A115FE8A213103E300DAA4E6 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		A115FE4E2130F0FC00DAA4E6 = {
 			isa = PBXGroup;
 			children = (
+				A115FE882130F48000DAA4E6 /* CatFact.swift */,
 				A115FE592130F0FD00DAA4E6 /* Cat Facts */,
 				A115FE6E2130F10200DAA4E6 /* Cat FactsTests */,
 				A115FE792130F10200DAA4E6 /* Cat FactsUITests */,
@@ -98,7 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				A115FE5A2130F0FD00DAA4E6 /* AppDelegate.swift */,
-				A115FE5C2130F0FD00DAA4E6 /* ViewController.swift */,
+				A115FE5C2130F0FD00DAA4E6 /* CatFactViewController.swift */,
+				A115FE8A213103E300DAA4E6 /* UIImage+Gif.swift */,
 				A115FE5E2130F0FD00DAA4E6 /* Main.storyboard */,
 				A115FE612130F10100DAA4E6 /* Assets.xcassets */,
 				A115FE632130F10100DAA4E6 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A115FE5D2130F0FD00DAA4E6 /* ViewController.swift in Sources */,
+				A115FE5D2130F0FD00DAA4E6 /* CatFactViewController.swift in Sources */,
 				A115FE5B2130F0FD00DAA4E6 /* AppDelegate.swift in Sources */,
+				A115FE8B213103E300DAA4E6 /* UIImage+Gif.swift in Sources */,
+				A115FE892130F48000DAA4E6 /* CatFact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
